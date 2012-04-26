@@ -1,0 +1,43 @@
+= attr_readwrite
+
+attr_readwrite adds a method to compliment attr_readonly.  This method is the exact opposite of attr_readonly and both should
+not be used simultaneously.
+
+
+== COMPATABILITY
+
+* Ruby 1.8
+* Rails 3
+* Rails 2
+
+Ruby 1.9.x is untested at this point.
+
+
+== INSTALL
+
+  gem sources -a http://gemcutter.org
+  sudo gem install attr_readwrite
+
+== Note on Patches/Pull Requests
+
+* Fork the project.
+* Make your feature addition or bug fix.
+* Add tests for it. This is important so I don't break it in a
+  future version unintentionally.
+* Commit, do not mess with rakefile, version, or history.
+  (if you want to have your own version, that is fine but
+  bump version in a commit by itself I can ignore when I pull)
+* Send me a pull request. Bonus points for topic branches.
+
+
+== LICENSE
+
+Copyright (c) 2009 C. Jason Harrelson (midas)
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
