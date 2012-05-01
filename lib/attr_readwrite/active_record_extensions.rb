@@ -8,7 +8,7 @@ module AttrReadwrite
 
     module ClassMethods
 
-      def attr_readwrite( attr_names )
+      def attr_readwrite( *attr_names )
         readwrite_attr_names = Array( attr_names ).map( &:to_s )
         attr_readonly *(column_names - readwrite_attr_names - %w(id))
       end
